@@ -8,7 +8,7 @@ void input_triangle(int **a, int n);
 int main() {
     int n;
     int max = 30;
-    if (!scanf("%d", &n) || n <= 0 || n > max) {
+    if (!scanf("%d", &n) || n < 1 || n > max) {
         fck();
         return 1;
     }
